@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Redirecting to Apple Store</title>
+<meta http-equiv="refresh" content="0; URL=https://apps.apple.com/us/app/haunted-maze/id1289515769">
+<link rel="canonical" href="https://apps.apple.com/us/app/haunted-maze/id1289515769">
+
+<script>
+    window.onload = () => {
+        currentURL = window.location.href;
+        lowerCaseURL = currentURL.toLowerCase();
+        if (currentURL != lowerCaseURL) {
+            location.replace(lowerCaseURL);
+        }
+    };
+</script>
